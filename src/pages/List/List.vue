@@ -1,14 +1,10 @@
 <template>
   <div>
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
-    <FootGuide/>
+分类
   </div>
 </template>
 
 <script>
-import FootGuide from './components/FootGuide/FootGuide'
 export default {
   name:"",
   data() {
@@ -16,9 +12,6 @@ export default {
 
     };
   },
-  components:{
-    FootGuide
-  }
 };
 </script>
 
